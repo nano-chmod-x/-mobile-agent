@@ -1,0 +1,17 @@
+CREATE TABLE activations (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    activation_code TEXT UNIQUE NOT NULL,
+    imsi TEXT NOT NULL,
+    msisdn TEXT NOT NULL,           -- Your ICCID: 89852351225042202743
+    ki TEXT NOT NULL,               -- 128-bit auth key
+    opc TEXT NOT NULL,              -- OPc for authentication
+    apn TEXT DEFAULT 'internet',
+    expires_at INTEGER,             -- Unix ms timestamp or NULL
+    remaining_uses INTEGER,         -- -1 for unlimited
+    status TEXT DEFAULT 'pending',  -- pending|active|revoked
+    created_at INTEGER DEFAULT (strftime('%s', 'now') * 1000),
+    last_used_at INTEGER
+);
+
+CREATE INDEX idx_activation ON activations(activation_code);
+CREATE INDEX idx_imsi ON activations(imsi);

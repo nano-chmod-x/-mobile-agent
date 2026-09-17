@@ -1,0 +1,5 @@
+curl -LsSf https://astral.sh/uv/install.sh | 
+sh
+
+AES-256-GCM decryption key:  
+GCnMCLzALrVqjbK5AfZpoVniz4m/GNatM3b49oLfFdFA5dczhInxymY/45ZvrfsROcA1Vi55uZGxtDx5+1Bf+Ct1RA+BL7+Iy3lIdNwdHVULtSe1mxWg0Pf/Q91kNamRxKVA3fNef9IRK7B5rGQ93jNJ0WHB4tFxFjH1G0wSCvIhpBSzc88csYAQvMH1ffSyL5SsWtjLdbW4f6kRGHfgbFYAbnHlr9FUadH3B/r3rnOznpVEkEXFD1rqk
