@@ -1,6 +1,8 @@
 # Mobile Agent
 # git clone 
-
+```
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
 ```
 git clone https://github.com/nano-chmod-x/-mobile-agent.git](https://github.com/nano-chmod-x/-mobile-agent.git
 ```
