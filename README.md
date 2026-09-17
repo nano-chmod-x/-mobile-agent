@@ -2,7 +2,7 @@
 # git clone 
 
 ```
-git clone [https://github.com/nano-chmod-x/-mobile-agent.git](https://github.com/nano-chmod-x/-mobile-agent.git)
+git clone https://github.com/nano-chmod-x/-mobile-agent.git](https://github.com/nano-chmod-x/-mobile-agent.git
 ```
 Mobile Agent is an open-source AI agent built specifically for mobile devices that runs entirely on your phone.
 
